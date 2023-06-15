@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: floralwhite ghostwhite ;
+    
+}
+
+html{
+    /* me permite deslizar cuando hago clic en los links del menu */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Work Sans';
+    overflow-x: hidden;
+}
+
+.contenedor-header{
+    width:100vw;
+    height: 8vh;
+    background-color:#272727;
+    color:aliceblue;
+    z-index: 999;
+}
+.nav{
+    background-color:#272727;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 8vh;
+    justify-content: space-around;
+    padding: 1.3em;
+    }
+    .nav ul{
+        display: flex;
+        list-style: none;
+        padding: 10px 0 0 0;
+    }
+    .abrev span{
+        color:#279a96;
+    }
+    nav{
+        background-color: rgb(9, 97, 9);
+        color: white;
+        display: flex;
+    }
+.menu{
+    width: 30%;
+    justify-content: space-around;
+    margin-right: 5em;
+    font-weight: 600;
+  }
+  .menu li{
+    list-style: none;
+  }
+  .menu a{
+    color:aliceblue;
+    text-decoration: none;
+  }
+  .menu .color{
+    color:#b69d74;
+  }
+  .menu a:hover{
+    color:#b69d74;;
+  }
+
+
+h1,h2,h3{
+    text-align: center;
+}
+
+/*styles client*/
+#cliente{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#cliente h3{
+    font-size: 40px;
+    font-weight: 800px;
+    color:#279a96;
+}
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .content{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  form, #serviceForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+  }
+  form input, #serviceForm input{
+    width: 90%;
+    height: 35px;
+    border-radius: 10px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  input[type="text"], input[type="number"] {
+    padding: 6px;
+  }
+
+  #searchInput {
+    width: 100%;
+    background-color: #c2f1ef;
+    color: black;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .btn-agregar{
+    background-color: #279a96;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    }
+
+.buscar{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+
+/* Servicios de lavado */
+#servicios{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card {
+    width: 30%;
+    height: 30%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex; 
+    align-items: center; 
+    z-index: 1;
+  }
+
+  #cardContainer{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card img {
+    width: 80%; 
+    margin-right: 10px; 
+  }
+
+  .card h2 {
+    margin-top: 0;
+    text-transform: uppercase;
+  }
+
+  .card p {
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  .delete-icon {
+    cursor: pointer;
+  }
+
+
+
+/*Modulo COMPRAR*/
+#compra{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#selectOptions, #selectGames{
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+}
+.button-compra{
+    background-color: #279a96;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+}
+
+
+/* puntos */
+#puntosFidelizacion{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c2f1ef;
+    color: black;
+    font-weight: 700;
+}
+
